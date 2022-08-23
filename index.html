@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Face Pose Classification using ONNX.JS</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>  
+  <body>
+    
+    <h1>Face Pose Classification using ONNX.JS</h1>
+    <section>
+      <!-- Enabling the Webcam button -->
+      <div id="liveView" class="videoView">
+        <button id="webcamButton">Enable Webcam</button>
+        <video id="webcam" autoplay></video>
+      </div>
+      <div id="predictions"></div>
+    </section>
+    
+    <!-- ONNX.js CDN link-->
+    <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+    <!-- javascript file convering the tensor for model input-->
+    <script src="ndarray-browser-min.js"></script>
+    <!-- loading the image into webbrowser -->
+    <script src="image-loader.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
