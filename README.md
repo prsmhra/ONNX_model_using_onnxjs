@@ -12,6 +12,6 @@ for Web inferenceing using onnx model we need to convert the model with ***opset
 
 In **index.js** all the inferencing is done in frontend, there is not any backend you use this code in beckend also with minimal changes according to your need.
 
-**ndarray-browser-min.js** is has teh functions used to convert the image into tensor for inferencing.
+**ndarray-browser-min.js** is has the functions used to convert the image into tensor for inferencing.
 
-**image-loader.js** is used for loading the image from video and set height and width of the image as per inout size required.
+**image-loader.js** is used for loading the image from video and set height and width of the image as per input size required.
